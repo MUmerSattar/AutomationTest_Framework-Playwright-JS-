@@ -56,6 +56,12 @@ The framework validates both **positive and negative scenarios** and ensures tha
 
 ## 🧪 Test Scenarios
 
+### ✅ End-2-End Scenarios
+
+* User can register successfully
+* User can login with same registered credentials
+* User can logout successfully
+
 ### ✅ Positive Scenarios
 
 * User can register successfully
