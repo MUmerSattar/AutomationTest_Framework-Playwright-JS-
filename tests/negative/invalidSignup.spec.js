@@ -123,7 +123,7 @@ test.describe('Invalid Signup Tests', () => {
     await signupPage.signup(existingUser);
 
     const error = await waitForToast(page);
-    await expect(error).toContain('User already exists with this Email Id!');
+    await expect(error).toContain('User already exisits with this Email Id!');
   });
 
   // --------------------------------------------------
